@@ -1,6 +1,9 @@
 -- Neotree
 vim.keymap.set("n", "<leader>b", "<cmd>Neotree toggle<CR>", { silent = true, desc = "toggle filetree"})
 
+-- Lazygit
+vim.keymap.set("n", "<leader>gg", "<cmd>LazyGit<CR>", { silent = true, desc = "open git GUI"})
+
 -- Telescope
 local builtin = require('telescope.builtin')
 vim.keymap.set('n', '<leader>ff', builtin.find_files, { desc = 'Telescope find files' })
