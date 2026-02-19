@@ -27,4 +27,4 @@ vim.diagnostic.config(
 )
 
 
-vim.cmd.colorscheme("catppuccin-macchiato")
+vim.cmd.colorscheme("gruvbox")
